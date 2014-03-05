@@ -1,0 +1,11 @@
+AC_INIT([lingua], [0.1])
+
+AC_PROG_CC
+AC_PROG_YACC
+AC_PROG_LEX
+
+AM_INIT_AUTOMAKE()
+AM_CONFIG_HEADER(config.h)
+AC_CONFIG_FILES(Makefile src/Makefile)
+
+AC_OUTPUT
